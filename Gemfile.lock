@@ -21,6 +21,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
+    rake (10.1.0)
     ruby-rc4 (0.1.5)
     ttfunk (1.0.3)
 
@@ -29,3 +30,4 @@ PLATFORMS
 
 DEPENDENCIES
   prawn!
+  rake
