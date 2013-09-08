@@ -1,8 +1,10 @@
-task :default => [:build]
+task :default do
+  Rake::Task["build"].execute
+  Rake::Task["display"].execute
+end
 
 task :build do
   ruby "resume.rb"
-  Rake::Task["display"].execute
 end
 
 task :display do
