@@ -8,7 +8,7 @@ class Page
         "in various forms as well as a bachelors degree in Computer Science. " +
         "Possesses a passion for learning. Communicates well with other " +
         "departments and co-workers such as customer service and designers."
-:w
+  
   SKILLS = [ ["Ruby", "Regular expressions", "Java"],
              ["JavaScript/JQuery", "CSS", "Sinatra/Rails"],
              ["XSLT", "HTML", "PHP"] ]
@@ -45,7 +45,8 @@ class Page
     @base_height = @pdf.bounds.height
     @base_width  = @pdf.bounds.width
     @y_position  = @base_height
-    @background  = "parchment2.jpg"
+    @background  = File.join(File.dirname(__FILE__), '../assets/parchment2.jpg')
+    @divider     = File.join(File.dirname(__FILE__), '../assets/page-divider.png')
   end
 
   def add_background
@@ -103,7 +104,7 @@ class Page
 
   def add_divider
     @pdf.bounding_box([0, @y_position], width: @base_width, height: 12) do
-      @pdf.image "page-divider.png", height: 12, position: :center
+      @pdf.image @divider, height: 12, position: :center
       adjust_y_position @pdf.bounds.height + 2
     end
   end

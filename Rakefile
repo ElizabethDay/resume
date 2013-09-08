@@ -4,7 +4,7 @@ task :default do
 end
 
 task :build do
-  ruby "resume.rb"
+  ruby "src/resume.rb"
 end
 
 task :display do
