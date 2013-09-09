@@ -1,0 +1,71 @@
+en:
+  name: Elizabeth D. Day
+  email: elizabeth.d.day@gmail.com
+  twitter_handle: bsunrise
+  phone_no: 616.366.6823
+  street_addr: 5621 Roosevelt St
+  city_state_zip: Coopersville, MI 49404
+  profile: "Creative developer who loves to make useful applications 
+    in a beautiful way. Eleven years in software and web development
+    in various forms as well as a bachelors degree in Computer Science. 
+    Possesses a passion for learning. Communicates well with other 
+    departments and co-workers such as customer service and designers."
+  skills:
+    -
+      - Ruby
+      - Regular expressions
+      - Java
+    -
+      - JavaScript/JQuery
+      - CSS
+      - Sinatra/Rails
+    -
+      - XSLT
+      - HTML
+      - PHP
+  job_experience:
+    -
+      position: IT and Web Development
+      company: Focus Marketing, Inc / T. M. Transition Services, LLC
+      duration: 7/2012 to present
+      description:
+        - "Updated and maintained mymenulab.com and the Storefront sites used to create and sell menus"
+        - "Used Ruby and Sinatra along with MongoDB to create systems to work in conjunction with the Storefront site."
+        - "Created new menu templates in Pageflex Studio."
+    -
+      position: Software Development Consultant
+      company: COCC
+      duration: 4/2011 to 7/2011
+      description:
+        - "Developed Java libraries to store financial statements as HTML document."
+        - "Managed XSL and XTHML display issues for customer statements and resolved issues quickly."
+        - "Assisted support staff in the understanding of the OSI DDS/D3 system."
+    -
+      position: Programming Consultant/Custom Developer
+      company: COWWW Software / Open Solutions, Inc
+      duration: "5/2002 to 5/2009 12/2009 to 4/2011"
+      description:
+        - "Utilized regular expressions, XSLT, and XHTML to develop displays for financial statements."
+        - "Wrote Java classes to retrieve information from a database for customized marketing displays."
+        - "Created XHTML displays for statements and credit cards of dozens of financial institutions including CU*Answers, COCC, Fidelity, and Partners Credit Union for Disney employees."
+  experience_note: "* See 
+    <color rgb='0000AA'><u><link href='http://www.linkedin.com/in/elizabethdawnday'>http://www.linkedin.com/in/elizabethdawnday</link></u></color>
+    for a more detailed overview of previous work history "
+  college_degree: Bachelor of Science in Computer Science
+  university: Grand Valley State University
+  graduation_date: May 2001
+  honors: Member of Upsilon Pi Epsilon Honor Society
+  activities:
+    - Member of GR Web Development Group
+    - Member of West Michigan Ruby User Group
+    - Crafting and Sewing
+    - Mother
+  references: Submitted upon request
+
+  label:
+    profile: Profile
+    skills: Skills
+    experience: Experience
+    education: Education
+    activities: Other Activities
+    references: References
