@@ -27,7 +27,7 @@ en:
     -
       position: IT and Web Development
       company: Focus Marketing, Inc / T. M. Transition Services, LLC
-      duration: 7/2012 to present
+      duration: 7/2012 to 2/2014
       description:
         - "Updated and maintained mymenulab.com and the Storefront sites used to create and sell menus"
         - "Used Ruby and Sinatra along with MongoDB to create systems to work in conjunction with the Storefront site."
@@ -38,7 +38,7 @@ en:
       duration: 4/2011 to 7/2011
       description:
         - "Developed Java libraries to store financial statements as HTML document."
-        - "Managed XSL and XTHML display issues for customer statements and resolved issues quickly."
+        - "Managed XSL and XHTML display issues for customer statements and resolved issues quickly."
         - "Assisted support staff in the understanding of the OSI DDS/D3 system."
     -
       position: Programming Consultant/Custom Developer
